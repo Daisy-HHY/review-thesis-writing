@@ -1,0 +1,25 @@
+{
+  "name": "review-thesis-writing",
+  "version": "0.1.0",
+  "description": "面向需求审查系统开题报告与毕业论文的中文工程写作 skill",
+  "type": "module",
+  "bin": {
+    "review-thesis-writing": "bin/cli.mjs"
+  },
+  "files": ["bin/", "skills/"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daisy-HHY/review-thesis-writing.git"
+  },
+  "homepage": "https://github.com/Daisy-HHY/review-thesis-writing#readme",
+  "bugs": "https://github.com/Daisy-HHY/review-thesis-writing/issues",
+  "keywords": ["agent-skill", "codex", "thesis", "academic-writing", "requirements-review"]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "审查系统论文写作"
+  short_description: "撰写与润色需求审查系统开题报告和毕业论文，核对原文引用及结论边界"
+  default_prompt: "使用 $review-thesis-writing，依据提供的项目材料与原始文献撰写或修改指定论文内容，保留证据定位和研究边界。"
